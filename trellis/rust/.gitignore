@@ -1,0 +1,45 @@
+# See https://github.com/github/gitignore for more examples
+
+# Rust build artifacts
+/target/
+**/target/
+
+# Rust-Cargo specific
+/cargo-geiger.json
+/cargo-lock.json
+
+# Cargo lock file generated on build
+Cargo.lock
+
+# Compiled dynamic libraries
+*.dylib
+*.so
+*.dll
+
+# Rust documentation files
+/doc/
+
+# Idea or editor-specific files (adjust for your IDE if necessary)
+.idea/
+.vscode/
+*.iml
+
+# VSCode settings
+.vscode/settings.json
+
+# Backup files
+*~
+*.bak
+*.swp
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Generated test artifacts
+/tests/
+*.hprof
+

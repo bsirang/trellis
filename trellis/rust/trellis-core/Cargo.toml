@@ -1,0 +1,12 @@
+[package]
+name = "trellis-core"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+prost = "0.12"  # For using protobuf types
+
+[build-dependencies]
+prost-build = "0.12"  # For compiling .proto files during build

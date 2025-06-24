@@ -1,0 +1,5 @@
+[workspace]
+resolver = "2"
+members = [
+    "trellis-core",  # Assuming trellis-core is in the same directory
+]
